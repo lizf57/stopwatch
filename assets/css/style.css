@@ -1,7 +1,9 @@
 * {
     background-color: rgb(255, 142, 55);
     margin: 15px;
+    margin-top:30px;
 }
+
 body {
     color: white;
     font-family:'Courier New', Courier, monospace;
@@ -12,21 +14,21 @@ body {
 }
 
 h1 {
-    font-size: 70px;
-    text-shadow: 2px 2px 2px red;
+    font-size: 100px;
+    text-shadow: 4px 4px 4px red;
 }
 
 p {
-    font-size: 65px;
-    text-shadow: 1px 1px 1px red;
+    font-size: 95px;
+    text-shadow: 2px 2px 2px red;
 }
 
 button {
     display: inline-block;
     background-color: rgb(255, 142, 55);
     color: white;
-    border: solid red;
-    font-size: 20px;
+    border: 2px solid red;
+    font-size: 40px;
     border-radius: 5px;
     transition-duration: 0.4s;
 }
@@ -34,7 +36,7 @@ button {
 button:hover {
     background-color: white;
     color: red;
-    font-size: 25px;
+    font-size: 45px;
     cursor: pointer;
 }
 
