@@ -1,0 +1,35 @@
+* {
+    background-color: rgb(255, 142, 55);
+    margin: 15px;
+}
+body {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    text-shadow: 2px 2px 2px red;
+}
+
+p {
+    font-size: 65px;
+    text-shadow: 1px 1px 1px red;
+}
+
+button {
+    background-color: white;
+    color: red;
+    border: solid red;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
